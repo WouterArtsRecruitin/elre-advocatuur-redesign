@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Gelre Advocatuur - Juridisch Nieuws & Artikelen</title>
+  <meta name="description" content="Lees juridische artikelen over arbeidsrecht en letselschade. Praktische tips en uitleg van advocaat Martine Meijer.">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <a href="../index.html" class="nav__logo">
+        <span class="nav__logo-text">Gelre</span>
+        <span class="nav__logo-sub">Advocatuur</span>
+      </a>
+      <button class="nav__toggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu">
+        <li><a href="../index.html" class="nav__link">Home</a></li>
+        <li><a href="over-ons.html" class="nav__link">Over Ons</a></li>
+        <li class="nav__dropdown">
+          <a href="#" class="nav__link">Expertises</a>
+          <ul class="nav__dropdown-menu">
+            <li><a href="arbeidsrecht.html">Arbeidsrecht</a></li>
+            <li><a href="letselschade.html">Letselschade</a></li>
+            <li><a href="arbeidsongevallen.html">Arbeidsongevallen</a></li>
+            <li><a href="verkeersongevallen.html">Verkeersongevallen</a></li>
+          </ul>
+        </li>
+        <li><a href="tarieven.html" class="nav__link">Tarieven</a></li>
+        <li><a href="blog.html" class="nav__link active">Blog</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+        <li><a href="kennismakingsgesprek.html" class="btn btn--primary btn--sm">Gratis Gesprek</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header page-header--compact">
+    <div class="container">
+      <h1 class="page-header__title">Blog</h1>
+      <p class="page-header__subtitle">Juridisch nieuws en praktische tips</p>
+    </div>
+  </section>
+
+  <!-- Blog Filter -->
+  <section class="section section--no-padding-bottom">
+    <div class="container">
+      <div class="blog-filter">
+        <button class="blog-filter__btn active" data-filter="all">Alle Artikelen</button>
+        <button class="blog-filter__btn" data-filter="arbeidsrecht">Arbeidsrecht</button>
+        <button class="blog-filter__btn" data-filter="letselschade">Letselschade</button>
+        <button class="blog-filter__btn" data-filter="tips">Praktische Tips</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="blog-grid">
+        <!-- Featured Article -->
+        <article class="blog-card blog-card--featured" data-category="arbeidsrecht" data-animate>
+          <div class="blog-card__image">
+            <div class="blog-card__placeholder">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+          </div>
+          <div class="blog-card__content">
+            <span class="blog-card__category">Arbeidsrecht</span>
+            <h2 class="blog-card__title">Vaststellingsovereenkomst: Waar Moet U Op Letten?</h2>
+            <p class="blog-card__excerpt">Een vaststellingsovereenkomst (VSO) is een overeenkomst waarmee werkgever en werknemer in onderling overleg de arbeidsovereenkomst beëindigen. Lees waar u op moet letten voordat u tekent.</p>
+            <div class="blog-card__meta">
+              <span class="blog-card__date">15 januari 2025</span>
+              <span class="blog-card__reading">6 min lezen</span>
+            </div>
+            <a href="#" class="blog-card__link">Lees verder →</a>
+          </div>
+        </article>
+
+        <!-- Regular Articles -->
+        <article class="blog-card" data-category="letselschade" data-animate>
+          <div class="blog-card__image">
+            <div class="blog-card__placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+              </svg>
+            </div>
+          </div>
+          <div class="blog-card__content">
+            <span class="blog-card__category">Letselschade</span>
+            <h3 class="blog-card__title">Smartengeld: Wat Is Het en Hoeveel Krijgt U?</h3>
+            <p class="blog-card__excerpt">Naast materiële schade kunt u ook smartengeld claimen voor immateriële schade. Maar hoe wordt dit berekend?</p>
+            <div class="blog-card__meta">
+              <span class="blog-card__date">8 januari 2025</span>
+              <span class="blog-card__reading">5 min lezen</span>
+            </div>
+            <a href="#" class="blog-card__link">Lees verder →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="arbeidsrecht" data-animate>
+          <div class="blog-card__image">
+            <div class="blog-card__placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+          </div>
+          <div class="blog-card__content">
+            <span class="blog-card__category">Arbeidsrecht</span>
+            <h3 class="blog-card__title">Ontslag op Staande Voet: Uw Rechten</h3>
+            <p class="blog-card__excerpt">Een ontslag op staande voet is ingrijpend. Wanneer is het geldig en wat kunt u ertegen doen?</p>
+            <div class="blog-card__meta">
+              <span class="blog-card__date">2 januari 2025</span>
+              <span class="blog-card__reading">7 min lezen</span>
+            </div>
+            <a href="#" class="blog-card__link">Lees verder →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="tips" data-animate>
+          <div class="blog-card__image">
+            <div class="blog-card__placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+          </div>
+          <div class="blog-card__content">
+            <span class="blog-card__category">Praktische Tips</span>
+            <h3 class="blog-card__title">5 Tips bij een Arbeidsconflict</h3>
+            <p class="blog-card__excerpt">Een arbeidsconflict is stressvol. Met deze vijf tips zorgt u ervoor dat u stevig staat.</p>
+            <div class="blog-card__meta">
+              <span class="blog-card__date">18 december 2024</span>
+              <span class="blog-card__reading">4 min lezen</span>
+            </div>
+            <a href="#" class="blog-card__link">Lees verder →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="letselschade" data-animate>
+          <div class="blog-card__image">
+            <div class="blog-card__placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="blog-card__content">
+            <span class="blog-card__category">Letselschade</span>
+            <h3 class="blog-card__title">Wat Te Doen Na een Verkeersongeval?</h3>
+            <p class="blog-card__excerpt">De eerste stappen na een verkeersongeval zijn cruciaal voor uw schadeclaim. Dit moet u weten.</p>
+            <div class="blog-card__meta">
+              <span class="blog-card__date">10 december 2024</span>
+              <span class="blog-card__reading">5 min lezen</span>
+            </div>
+            <a href="#" class="blog-card__link">Lees verder →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="arbeidsrecht" data-animate>
+          <div class="blog-card__image">
+            <div class="blog-card__placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+          </div>
+          <div class="blog-card__content">
+            <span class="blog-card__category">Arbeidsrecht</span>
+            <h3 class="blog-card__title">Transitievergoeding 2025: Dit Zijn de Bedragen</h3>
+            <p class="blog-card__excerpt">Hoe wordt de transitievergoeding berekend en waar heeft u recht op bij ontslag?</p>
+            <div class="blog-card__meta">
+              <span class="blog-card__date">1 december 2024</span>
+              <span class="blog-card__reading">4 min lezen</span>
+            </div>
+            <a href="#" class="blog-card__link">Lees verder →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="tips" data-animate>
+          <div class="blog-card__image">
+            <div class="blog-card__placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="blog-card__content">
+            <span class="blog-card__category">Praktische Tips</span>
+            <h3 class="blog-card__title">Wanneer Heeft U een Advocaat Nodig?</h3>
+            <p class="blog-card__excerpt">Niet elke juridische kwestie vereist een advocaat. Lees wanneer het wel verstandig is.</p>
+            <div class="blog-card__meta">
+              <span class="blog-card__date">20 november 2024</span>
+              <span class="blog-card__reading">3 min lezen</span>
+            </div>
+            <a href="#" class="blog-card__link">Lees verder →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="letselschade" data-animate>
+          <div class="blog-card__image">
+            <div class="blog-card__placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="blog-card__content">
+            <span class="blog-card__category">Letselschade</span>
+            <h3 class="blog-card__title">Arbeidsongeval: Werkgeversaansprakelijkheid</h3>
+            <p class="blog-card__excerpt">Wanneer is uw werkgever aansprakelijk voor een bedrijfsongeval en welke vergoeding kunt u krijgen?</p>
+            <div class="blog-card__meta">
+              <span class="blog-card__date">5 november 2024</span>
+              <span class="blog-card__reading">6 min lezen</span>
+            </div>
+            <a href="#" class="blog-card__link">Lees verder →</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Load More -->
+      <div class="blog-more">
+        <button class="btn btn--outline">Meer Artikelen Laden</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="section section--dark">
+    <div class="container container--narrow">
+      <div class="newsletter" data-animate>
+        <h2>Blijf Op de Hoogte</h2>
+        <p>Ontvang juridische tips en nieuws direct in uw inbox. Maximaal 2x per maand, geen spam.</p>
+        <form class="newsletter__form" action="#" method="POST">
+          <input type="email" placeholder="Uw e-mailadres" required>
+          <button type="submit" class="btn btn--primary">Aanmelden</button>
+        </form>
+        <p class="newsletter__note">Door u aan te melden gaat u akkoord met onze <a href="#">privacyverklaring</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section">
+    <div class="container container--narrow">
+      <div class="cta-box" data-animate>
+        <h2>Juridische Vraag?</h2>
+        <p>Heeft u na het lezen van een artikel nog vragen? Plan een gratis kennismakingsgesprek en bespreek uw situatie.</p>
+        <div class="cta-box__buttons">
+          <a href="kennismakingsgesprek.html" class="btn btn--primary">Gratis Gesprek Plannen</a>
+          <a href="tel:0314227070" class="btn btn--outline">Bel 0314 - 22 70 70</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="footer__logo-text">Gelre</span>
+            <span class="footer__logo-sub">Advocatuur</span>
+          </div>
+          <p class="footer__tagline">Persoonlijke juridische bijstand in arbeidsrecht en letselschade.</p>
+        </div>
+
+        <div class="footer__links">
+          <h4>Expertises</h4>
+          <ul>
+            <li><a href="arbeidsrecht.html">Arbeidsrecht</a></li>
+            <li><a href="letselschade.html">Letselschade</a></li>
+            <li><a href="arbeidsongevallen.html">Arbeidsongevallen</a></li>
+            <li><a href="verkeersongevallen.html">Verkeersongevallen</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links">
+          <h4>Informatie</h4>
+          <ul>
+            <li><a href="over-ons.html">Over Ons</a></li>
+            <li><a href="tarieven.html">Tarieven</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__contact">
+          <h4>Contact</h4>
+          <p>Dorpsstraat 14<br>6999 AD Hummelo</p>
+          <p><a href="tel:0314227070">0314 - 22 70 70</a></p>
+          <p><a href="mailto:info@gelre-advocatuur.nl">info@gelre-advocatuur.nl</a></p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Gelre Advocatuur. Alle rechten voorbehouden.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Algemene Voorwaarden</a>
+          <a href="#">Klachtenregeling</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Mobile CTA -->
+  <div class="sticky-cta">
+    <a href="tel:0314227070" class="btn btn--primary btn--full">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+      Bel Direct: 0314 - 22 70 70
+    </a>
+  </div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
