@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Gelre Advocatuur</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav__container container">
+            <a href="../index.html" class="nav__logo"><span class="nav__logo-text">Gelre</span><span class="nav__logo-sub">Advocatuur</span></a>
+            <ul class="nav__menu">
+                <li class="nav__item nav__item--dropdown"><a href="#" class="nav__link">Expertises</a>
+                    <ul class="nav__dropdown">
+                        <li><a href="arbeidsrecht.html">Arbeidsrecht</a></li>
+                        <li><a href="letselschade.html">Letselschade</a></li>
+                        <li><a href="arbeidsongevallen.html">Arbeidsongevallen</a></li>
+                        <li><a href="verkeersongevallen.html">Verkeersongevallen</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item"><a href="over-ons.html" class="nav__link">Over Ons</a></li>
+                <li class="nav__item"><a href="tarieven.html" class="nav__link">Tarieven</a></li>
+                <li class="nav__item"><a href="blog.html" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
+            </ul>
+            <a href="kennismakingsgesprek.html" class="btn btn--primary nav__cta">Gratis Gesprek</a>
+        </div>
+    </nav>
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">Contact</h1>
+            <p class="page-header__subtitle">Neem gerust contact op</p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Contactgegevens</h2>
+                    <div class="contact-card"><h3>Adres</h3><p>Dorpsstraat 14<br>6999 AD Hummelo</p></div>
+                    <div class="contact-card"><h3>Telefoon</h3><p><a href="tel:0314227070">0314-227070</a></p></div>
+                    <div class="contact-card"><h3>E-mail</h3><p><a href="mailto:info@gelre-advocatuur.nl">info@gelre-advocatuur.nl</a></p></div>
+                    <div class="contact-card"><h3>Openingstijden</h3><p>Ma-Vr: 09:00 - 17:30</p></div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h2>Stuur een bericht</h2>
+                    <form class="contact-form">
+                        <div class="form-group"><label for="name">Naam *</label><input type="text" id="name" required></div>
+                        <div class="form-group"><label for="email">E-mail *</label><input type="email" id="email" required></div>
+                        <div class="form-group"><label for="phone">Telefoon</label><input type="tel" id="phone"></div>
+                        <div class="form-group"><label for="subject">Onderwerp *</label>
+                            <select id="subject" required>
+                                <option value="">Selecteer</option>
+                                <option value="arbeidsrecht">Arbeidsrecht</option>
+                                <option value="letselschade">Letselschade</option>
+                                <option value="overig">Overig</option>
+                            </select>
+                        </div>
+                        <div class="form-group"><label for="message">Bericht *</label><textarea id="message" rows="5" required></textarea></div>
+                        <div class="form-group form-group--checkbox"><input type="checkbox" id="privacy" required><label for="privacy">Akkoord met privacybeleid *</label></div>
+                        <button type="submit" class="btn btn--primary btn--full">Verstuur</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer"><div class="container"><p>&copy; 2025 Gelre Advocatuur</p></div></footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
